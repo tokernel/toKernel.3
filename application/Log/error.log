@@ -1,0 +1,157 @@
+[2017-08-29 04:04:01 http] Class 'HTTP\Template' not found | File: /var/www/html/toKernel.3/tokernel.framework/kernel/HTTP/Response.php | Line: 209
+[2017-08-29 04:04:24 http] require(): Failed opening required '/var/www/html/toKernel.3/application/Templates/default/error.tpl.php' (include_path='.:/usr/share/pear:/usr/share/php') | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Template.php | Line: 83
+[2017-08-29 04:26:01 http] Call to undefined method Addons\Abc::insance() | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Template.php | Line: 290
+[2017-08-29 04:37:31 http] Class '\Addons\Abcc' not found | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Template.php | Line: 289
+[2017-08-29 04:39:52 http] Call to undefined method Addons\Abc::load_module() | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Template.php | Line: 296
+[2017-08-31 03:46:45 cli] Access to undeclared static property: CLI\Response::$status | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Response.php | Line: 159
+[2017-08-31 04:04:39 cli] Call to undefined method CLI\ErrorExceptionHandler::output() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php | Line: 91
+[2017-09-01 10:31:27 cli] Test User Error | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php | Line: 27
+[2017-09-01 11:01:34 http] Class '\Addons$addonName' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 22
+[2017-09-01 11:01:50 http] Class '\Addons\tokernel.3' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 22
+[2017-09-01 11:02:50 http] Class '\Addons\tokernel.3' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 22
+[2017-09-01 11:03:37 http] Class '\Addons\dsds' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 22
+[2017-09-01 11:03:42 http] Class '\Addons\example' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 22
+[2017-09-01 11:05:43 http] Call to undefined method Addons\Example::action() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 27
+[2017-09-01 11:06:06 http] Call to undefined method Addons\Example::index() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 27
+[2017-09-01 11:07:07 http] Class '\Addons\Test_web_page' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 23
+[2017-09-01 11:07:17 http] Call to undefined method Addons\Example::test_web_page() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 27
+[2017-09-01 11:18:27 http] Class '\Addons\Example' not found | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 33
+[2017-09-01 14:47:43 cli] Uncaught exception 'InvalidArgumentException' with message 'Invalid section name ``!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:418
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(202): Lib\Ini->setSection(NULL)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, true)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, true)
+#3 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#7 /var/www/html/toKerne | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 418
+[2017-09-01 14:48:03 cli] Uncaught exception 'InvalidArgumentException' with message 'Invalid section name ``!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:418
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(202): Lib\Ini->setSection(NULL)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, true)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, true)
+#3 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#7 /var/www/html/toKerne | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 418
+[2017-09-01 14:55:03 cli] Uncaught exception 'InvalidArgumentException' with message 'Invalid section name ``!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:418
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(202): Lib\Ini->setSection(NULL)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, true)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, true)
+#3 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#7 /var/www/html/toKerne | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 418
+[2017-09-01 14:57:45 cli] Uncaught exception 'ErrorException' with message 'Item `err_subject_production` in Language file in file: `/var/www/html/toKernel.3/application/Languages/.ini` not exists!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php:103
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#1 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#2 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Loader.inc.php(54): CLI\Runner::run(Array)
+#4 /var/www/html/toKernel.3/index.php(80): require_once('/var/www/html/t...')
+#5 {main}
+  thrown | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php | Line: 103
+[2017-09-01 14:58:45 cli] Uncaught exception 'ErrorException' with message 'Item `err_subject_production` not exists in Language file `/var/www/html/toKernel.3/application/Languages/.ini`!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php:103
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#1 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#2 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Loader.inc.php(54): CLI\Runner::run(Array)
+#4 /var/www/html/toKernel.3/index.php(80): require_once('/var/www/html/t...')
+#5 {main}
+  thrown | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php | Line: 103
+[2017-09-01 14:59:28 cli] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Loader.inc.php(54 | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-01 15:01:49 cli] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(28): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/ErrorExceptionHandler.php(55): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Runner.php(53): CLI\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/CLI/Loader.inc.php(54 | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-01 15:08:38 http] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/hy.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(32): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(66): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(69): HTTP\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc. | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-01 15:08:57 http] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/hy.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(32): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(66): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(69): HTTP\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc. | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-01 15:09:22 http] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/hy.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(32): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(66): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(69): HTTP\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc. | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-01 15:10:28 http] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/hy.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(32): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(66): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(69): HTTP\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc. | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-01 15:13:07 http] Uncaught exception 'ErrorException' with message 'File `/var/www/html/toKernel.3/application/Languages/hy.ini` not readable!' in /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php:192
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php(113): Lib\Ini->loadFile('/var/www/html/t...', NULL, false)
+#1 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(144): Lib\Ini->__construct('/var/www/html/t...', NULL, false)
+#2 /var/www/html/toKernel.3/tokernel.framework/Lib/Language.php(96): Lib\Language->loadLanguageFile()
+#3 /var/www/html/toKernel.3/tokernel.framework/Kernel/Base/Runner.php(32): Lib\Language->get('err_subject_pro...', Array)
+#4 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(66): Kernel\Base\Runner::getLanguage('err_subject_pro...')
+#5 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(69): HTTP\ErrorExceptionHandler::DisplayError(Object(ErrorException))
+#6 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc. | File: /var/www/html/toKernel.3/tokernel.framework/Lib/Ini.php | Line: 192
+[2017-09-02 08:58:14 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/application/Addons/Example.php | Line: 51
+[2017-09-02 08:58:17 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/application/Addons/Example.php | Line: 51
+[2017-09-02 09:09:44 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-02 09:09:46 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-02 09:10:13 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-02 09:10:23 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-02 09:10:30 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-02 09:12:02 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-02 09:12:51 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 68
+[2017-09-04 06:52:05 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 80
+[2017-09-04 06:52:26 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 80
+[2017-09-04 06:53:08 http] Call to undefined method HTTP\Response::appendContent() | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php | Line: 80
+[2017-09-04 15:00:12 http] Uncaught exception 'InvalidArgumentException' with message 'Output content is not Json!' in /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Response.php:239
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(149): HTTP\Response::setJsonContent(Array)
+#1 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(99): HTTP\ErrorExceptionHandler::DisplayError(Object(InvalidArgumentException))
+#2 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc.php(41): HTTP\Runner::run()
+#3 /var/www/html/toKernel.3/index.php(82): require_once('/var/www/html/t...')
+#4 {main}
+  thrown | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Response.php | Line: 239
+[2017-09-04 15:00:31 http] Uncaught exception 'InvalidArgumentException' with message 'Output content is not Json!' in /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Response.php:239
+Stack trace:
+#0 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/ErrorExceptionHandler.php(149): HTTP\Response::setJsonContent(Array)
+#1 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Runner.php(99): HTTP\ErrorExceptionHandler::DisplayError(Object(InvalidArgumentException))
+#2 /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Loader.inc.php(41): HTTP\Runner::run()
+#3 /var/www/html/toKernel.3/index.php(82): require_once('/var/www/html/t...')
+#4 {main}
+  thrown | File: /var/www/html/toKernel.3/tokernel.framework/Kernel/HTTP/Response.php | Line: 239

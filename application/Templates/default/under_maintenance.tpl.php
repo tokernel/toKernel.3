@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title>{var.subject}</title>
+</head>
+<body>
+<h1>{var.subject}</h1>
+<p>{var.message}</p>
+</body>
+</html>

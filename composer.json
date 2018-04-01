@@ -1,0 +1,72 @@
+{
+  "name": "tokernel/tokernel.3",
+  "type": "project",
+  "description": "toKernel Universal PHP Framework",
+  "keywords": ["php", "framework", "restful api", "cli", "mvc"],
+  "homepage": "https://github.com/tokernel/toKernel.3",
+  "time":"2017-06-09",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "David A.",
+      "email": "tokernel@gmail.com",
+      "homepage": "http://tokernel.com",
+      "role": "Founder"
+    },
+    {
+      "name": "toKernel Development team",
+      "email": "framework@tokernel.com",
+      "homepage": "http://tokernel.com/framework",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "framework@tokernel.com",
+    "issues": "https://github.com/tokernel/toKernel.3/issues",
+    "source": "https://github.com/tokernel/toKernel.3",
+    "docs": "http://tokernel.com/framework/documentation/project-overview/about-project",
+    "rss": "http://tokernel.com/framework/events/rss/"
+  },
+  "require": {
+    "php": ">=5.6.0",
+    "ext-mbstring": "*"
+  },
+  "suggest": {
+    "ext-memcached": "Needed to support Functionality of caching library by memcached",
+    "ext-mysqli": "Needed to support Functionality of mysql library",
+    "ext-ftp": "Needed to support Functionality of ftp library",
+    "ext-gd": "Needed to support Functionality of image and photo processing library",
+    "ext-session": "Needed to support Functionality of session and shopping_cart libraries"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "tokernel.framework\\Lib",
+      "App\\Lib\\":"application\\Lib",
+      "Kernel\\": "tokernel.framework\\Kernel",
+      "Kernel\\Base\\": "tokernel.framework\\Base",
+      "Base\\": "tokernel.framework\\Base",
+      "App\\Base\\": "application\\Base",
+      "Addons\\": "application\\Addons",
+      "HTTP\\": "tokernel.framework\\Kernel\\HTTP",
+      "CLI\\": "tokernel.framework\\Kernel\\CLI"
+
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/tokernel/toKernel.3.git"
+    },
+    {
+      "packagist.org": false
+    }
+  ],
+  "config": {
+    "platform":{
+      "php": "5.6"
+    },
+    "prepend-autoloader":true
+  }
+}
